@@ -1,3 +1,4 @@
+/* ************************grid********************* */
 #garden {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -12,3 +13,15 @@
   grid-column-start: 1;
 grid-column-end: 5
 }
+
+/* ************************flex********************* */
+#pond {
+    display: flex;
+  justify-content: flex-end;
+  }
+
+  #pond {
+    display: flex;
+  align-items:flex-end;
+  justify-content:space-around;
+  }
